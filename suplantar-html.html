@@ -1,44 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Suplantando etiquetas HTML por CSS</title>
-    <meta charset="utf-8" />
-    <style>
-      /*Escribe aquí las instrucciones css oportunas*/
-    </style>
-  </head>
-  <body>
-    <!-- <u>, <ins> -->
-    <!-- <i> -->
-    <!-- <b> -->
-    <!-- <s>, <del> -->
-    <!-- <blockquote> -->
-    <!-- <center> -->
-    <!-- <cite> -->
-    <!-- <sup> -->
-    <!-- <sub> -->
-    <!-- <code> -->
 
-    <p class="u">Lorem ipsum dolor sit amet.</p>
-    <p class="i">Lorem ipsum dolor sit amet.</p>
-    <p class="b">Lorem ipsum dolor sit amet.</p>
-    <p class="s">Lorem ipsum dolor sit amet.</p>
-    <p class="blockquote">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
-      obcaecati est dolores eos eveniet commodi doloribus voluptas repellat
-      temporibus culpa.
-    </p>
-    <p class="center">Lorem ipsum dolor sit amet.</p>
-    <p class="cite">Lorem ipsum dolor sit amet.</p>
-    <p>2<span class="sup">3</span></p>
-    <p>5<span class="sub">4</span></p>
-    <p class="code">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suplantando etiquetas HTML por CSS</title>
+  <meta charset="utf-8" />
+  <style>
+    /*Escribe aquí las instrucciones css oportunas*/
+    .u {
+      text-decoration: underline;
+    }
+
+    .i {
+      font-style: italic;
+    }
+
+    .b {
+      font-weight: bold;
+    }
+
+    .s {
+      text-decoration: line-through;
+    }
+
+    .blockquote {
+      width: 850px;
+      padding-left: 35px;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .cite {
+      font-style: italic;
+      text-align: left;
+    }
+
+    .sup {
+      vertical-align: super;
+      font-size: 13px;
+    }
+
+    .sub {
+      vertical-align: sub;
+      font-size: 13px;
+    }
+
+    .code {
+      font-family: monospace;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- <u>, <ins> -->
+  <!-- <i> -->
+  <!-- <b> -->
+  <!-- <s>, <del> -->
+  <!-- <blockquote> -->
+  <!-- <center> -->
+  <!-- <cite> -->
+  <!-- <sup> -->
+  <!-- <sub> -->
+  <!-- <code> -->
+
+  <p class="u">Lorem ipsum dolor sit amet.</p>
+  <p class="i">Lorem ipsum dolor sit amet.</p>
+  <p class="b">Lorem ipsum dolor sit amet.</p>
+  <p class="s">Lorem ipsum dolor sit amet.</p>
+  <p class="blockquote">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
+    obcaecati est dolores eos eveniet commodi doloribus voluptas repellat
+    temporibus culpa.
+  </p>
+  <p class="center">Lorem ipsum dolor sit amet.</p>
+  <p class="cite">Lorem ipsum dolor sit amet.</p>
+  <p>2<span class="sup">3</span></p>
+  <p>5<span class="sub">4</span></p>
+  <p class="code">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+    voluptatum velit minus commodi, impedit at excepturi porro ipsam repellat
+    ex.
+  </p>
+
+  <br><br>
+
+  <u>Lorem ipsum dolor sit amet.</u><br><br>
+  <i>Lorem ipsum dolor sit amet.</i><br><br>
+  <b>Lorem ipsum dolor sit amet.</b><br><br>
+  <s>Lorem ipsum dolor sit amet.</s>
+  <blockquote>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
+    obcaecati est dolores eos eveniet commodi doloribus voluptas repellat
+    temporibus culpa.
+  </blockquote>
+  <center>Lorem ipsum dolor sit amet.</center>
+  <cite>Lorem ipsum dolor sit amet.</cite>
+  <p>2<sup>3</sup></p>
+  <p>5<sub>4</sub></p>
+  <code>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
       voluptatum velit minus commodi, impedit at excepturi porro ipsam repellat
       ex.
-    </p>
-  </body>
+    </code>
+</body>
+
 </html>
